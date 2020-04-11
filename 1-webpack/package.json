@@ -7,11 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-dev-server": "webpack-dev-server",
     "webpack": "webpack",
-    "dev": "npm run webpack-dev-server -- --env development --watch",
-    "prod": "npm run webpack -- --env production",
+    "dev": "npm run webpack-dev-server -- --env.mode development --watch",
+    "prod": "npm run webpack -- --env.mode production",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "prod:debug": "npm run debug -- --env production",
-    "dev:debug": "npm run debug -- --env development"
+    "prod:debug": "npm run debug -- --env.mode production",
+    "dev:debug": "npm run debug -- --env.mode development"
   },
   "keywords": [],
   "author": "",

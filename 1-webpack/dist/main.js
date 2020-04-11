@@ -86,6 +86,17 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/button.js":
+/*!***********************!*\
+  !*** ./src/button.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = (buttonName) => {\r\n    return `Button: ${buttonName}`\r\n};\n\n//# sourceURL=webpack:///./src/button.js?");
+
+/***/ }),
+
 /***/ "./src/footer.js":
 /*!***********************!*\
   !*** ./src/footer.js ***!
@@ -106,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav */ \"./src/nav.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n\r\n\r\nconsole.log(_nav__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_1__[\"top\"], _footer__WEBPACK_IMPORTED_MODULE_1__[\"bottom\"]);\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav */ \"./src/nav.js\");\n/* harmony import */ var _footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./footer */ \"./src/footer.js\");\n/* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./button */ \"./src/button.js\");\n/* harmony import */ var _button__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_button__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\nconsole.log(_nav__WEBPACK_IMPORTED_MODULE_0__[\"default\"], _footer__WEBPACK_IMPORTED_MODULE_1__[\"top\"], _footer__WEBPACK_IMPORTED_MODULE_1__[\"bottom\"], _button__WEBPACK_IMPORTED_MODULE_2___default()('My First Button'));\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

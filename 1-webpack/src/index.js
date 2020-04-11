@@ -1,12 +1,11 @@
 import nav from './nav';
 import { top, bottom } from './footer';
-import { makeColorStyle } from './button-styles';
 import { makeButton } from './button';
+import { red, blue } from './button-styles';
 
-console.log(
-    nav,
-    top,
-    bottom,
-    makeButton('My First Button'),
-    makeColorStyle('marigold')
-);
+top.classList.add('topFooter')
+makeButton('My First Button', 'color: cyan')
+top.innerText = 'Top Footer'
+top.style = red;
+top.style.fontSize = '24px'
+document.body.appendChild(top)

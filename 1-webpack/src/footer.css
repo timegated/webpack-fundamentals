@@ -1,0 +1,18 @@
+footer {
+    height: 250px;
+    width: 250px;
+    background: orange;
+    border: 1px solid black;
+    display: flex;
+    flex: 1;
+    flex-shrink: 1;
+    padding: 20px;
+    margin: 1rem;
+}
+footer>div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1rem;
+}

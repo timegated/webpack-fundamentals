@@ -1,17 +1,16 @@
 footer {
-    height: 250px;
-    width: 250px;
+    width: 100%;
     background: orange;
     border: 1px solid black;
     display: flex;
     flex: 1;
     flex-shrink: 1;
     padding: 20px;
-    margin: 1rem;
+    margin: 0 auto;
 }
 
 footer>div {
     border: 1px solid black;
     padding: 20px;
-    margin: 1rem;
+    margin: auto;
 }

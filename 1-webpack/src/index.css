@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: auto;
+}
